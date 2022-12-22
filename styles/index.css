@@ -4,5 +4,10 @@
 
 .main {
   background-image: url("../assets/background.jpg");
+  background-size: cover;
   height: 90vh;
+}
+
+.height_full {
+  height: 100%;
 }
