@@ -1,3 +1,5 @@
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+
 .bg_primary {
   background-color: #002E5D;
 }
@@ -5,9 +7,106 @@
 .main {
   background-image: url("../assets/background.jpg");
   background-size: cover;
+  background-position: right;
   height: 90vh;
 }
 
 .height_full {
   height: 100%;
 }
+ul {
+  list-style-position: inside;
+  display: table;
+  margin: 0 auto;
+}
+/* .textr_paragraph {
+  font-size: 0.96rem;
+}
+
+.textr_heading {
+  font-size: 1.7rem;
+} */
+@media (min-width: 0) {
+  .textr_paragraph {
+    font-size: 0.7rem;
+  }
+  
+  .textr_heading {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 576px) { 
+  .textr_paragraph {
+    font-size: 0.7rem;
+  }
+  
+  .textr_heading {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .textr_paragraph {
+    font-size: 0.8rem;
+  }
+  
+  .textr_heading {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .textr_paragraph {
+    font-size: 0.96rem;
+  }
+  
+  .textr_heading {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .textr_paragraph {
+    font-size: 0.96rem;
+  }
+  
+  .textr_heading {
+    font-size: 1.7rem;
+  }
+}
+
+/* 
+@media all and (min-device-width: 720px){
+  
+}
+
+@media all and (max-device-width: 720px){
+  .textr_paragraph {
+    font-size: 0.4rem;
+  }
+  
+  .textr_heading {
+    font-size: 1rem;
+  }
+}
+
+@media all and (max-device-width: 640px){
+  .textr_paragraph {
+    font-size: 0.96rem;
+  }
+  
+  .textr_heading {
+    font-size: 1.7rem;
+  }
+}
+
+@media all and (max-device-width: 320px){
+  .textr_paragraph {
+    font-size: 0.96rem;
+  }
+  
+  .textr_heading {
+    font-size: 1.7rem;
+  }
+} */
